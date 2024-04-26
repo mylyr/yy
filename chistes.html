@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE>CHISTEEEEES</TITLE>
+</HEAD>
+<h1 style="color:gold;><font size="7"> <center>HOLAA! TE CONTARE UNOS CHISTES BIEN RANCIOS.</center></H1>
+
+<BODY bgcolor="black" text="white">
+
+<SCRIPT> 
+
+function mostrarChiste() {
+  var chistes = [
+
+    "¿Qué hace una abeja en el gimnasio? ¡Zum-ba!",
+    "¿Por qué el mar está salado? Porque nunca dice te quiero.",
+    "¿Qué le dice una iguana a su hermana gemela? ¡Iguanita!",
+    "Si te sientes mal, arregla tu silla.",
+    "¿que le dijo un pez a otro pez? ¡nadaremos, nadaremos jajaja!",
+
+  ];
+
+  var indice = Math.floor(Math.random() * chistes.length);
+  document.getElementById("chiste").innerHTML = chistes[indice];
+}
+</script>
+<CENTER>
+<font size="6">
+<h1>Chistes mas malos que yo en conta xddd </h1>
+
+<button onclick="mostrarChiste()">Mostrar Chiste</button>
+<p id="chiste"></p>
+</CENTER>
+
+
+<center>
+<IMG SRC="https://i.pinimg.com/originals/c4/11/71/c411712f21d1314ee7f2e6176a4b2ae3.gif" ALT="GRIFO"> <height= "200">
+</center>
+
+
+</body>
+</html>
